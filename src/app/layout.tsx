@@ -6,15 +6,19 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
 
 export const metadata: Metadata = {
-  title: "YourCompany — AI agents with visual + video guidance",
+  title: "InterLayer",
   description:
-    "Automate support, onboarding, and product demos with AI agents that can guide visually and speak through video avatars.",
-  metadataBase: new URL("https://example.com"),
+    "InterLayer is the visual agent layer for software: AI agents that highlight, explain, and execute workflows across support, onboarding, and demos.",
+  metadataBase: new URL("https://interlayer.co.in"),
   openGraph: {
-    title: "YourCompany — AI agents with visual + video guidance",
+    title: "InterLayer",
     description:
-      "Automate support, onboarding, and product demos with AI agents that can guide visually and speak through video avatars.",
+      "InterLayer is the visual agent layer for software: AI agents that highlight, explain, and execute workflows across support, onboarding, and demos.",
     type: "website",
+    url: "https://interlayer.co.in",
+  },
+  icons: {
+    icon: "/interlayer_logo.png",
   },
   robots: {
     index: true,
@@ -22,7 +26,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className={`${inter.variable} ${sora.variable}`}>
       <body>
