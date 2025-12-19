@@ -4,7 +4,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <div className="font-[var(--font-sora)] text-base">InterLayer</div>
+            <div id="top" className="font-[var(--font-sora)] text-base">InterLayer</div>
             <div className="mt-2 max-w-md text-sm text-white/65">
               AI agents for support, onboarding, and demos — with a visual layer and video-avatar interface.
             </div>
@@ -27,6 +27,14 @@ export function Footer() {
               <div className="text-xs font-medium text-white/60">Legal</div>
               <span className="block text-white/40">Privacy</span>
               <span className="block text-white/40">Terms</span>
+              <a
+                className="block text-white/70 hover:text-white"
+                href="https://calendly.com/abhiraj-interlayer/30min"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Contact
+              </a>
             </div>
           </div>
         </div>

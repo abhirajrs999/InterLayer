@@ -13,7 +13,7 @@ const tiers = [
     desc: "For early teams proving the wedge.",
     bullets: ["1 product environment", "Visual step-by-step guidance (limited flows)", "Basic ticket deflection", "Email + async support"],
     cta: "Start Pilot",
-    href: "#demo",
+    href: "https://calendly.com/abhiraj-interlayer/30min",
     highlight: false,
   },
   {
@@ -28,7 +28,7 @@ const tiers = [
       "Audit logs + retention insights",
     ],
     cta: "Request Demo",
-    href: "#demo",
+    href: "https://calendly.com/abhiraj-interlayer/30min",
     highlight: true,
   },
   {
@@ -43,7 +43,7 @@ const tiers = [
       "Security + procurement support",
     ],
     cta: "Talk to Sales",
-    href: "#demo",
+    href: "https://calendly.com/abhiraj-interlayer/30min",
     highlight: false,
   },
 ];
